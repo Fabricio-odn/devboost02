@@ -1,0 +1,155 @@
+.perfil-titulo,
+.perfil-descricao h1,
+.postagens h1,
+.favoritados h1,
+.score h1,
+.ultimas-postagens h1,
+.card-conteudo h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.postagens span,
+.favoritados span,
+.score span,
+.perfil-descricao span,
+.paragrafo,
+.autor {
+  font-family: "Inter";
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+.perfil {
+  width: 384px;
+  height: 408px;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+}
+.perfil-titulo {
+  font-size: 22px;
+  padding: 24px 0 0 36px;
+}
+.img-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-perfil img {
+  height: 150px;
+}
+.perfil-descricao {
+  text-align: center;
+}
+.perfil-descricao h1 {
+  font-size: 18px;
+}
+.perfil-descricao span {
+  font-weight: 400;
+  font-size: 15px;
+  color: #828282;
+}
+
+.perfil-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  margin: 30px 24px;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+}
+.perfil-detalhe {
+  width: 61px;
+  height: 5px;
+  background: #5138ee;
+  border-radius: 0px 0px 4px 4px;
+  position: absolute;
+  top: 0;
+  left: 54px;
+}
+.postagens h1,
+.favoritados h1,
+.score h1 {
+  font-size: 17px;
+}
+.postagens h1 {
+  color: #5138ee;
+}
+.postagens span,
+.favoritados span,
+.score span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #828282;
+}
+
+.ultimas-postagens {
+  width: 800px;
+  height: 408px;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  margin-left: 30px;
+  padding: 0 24px;
+}
+.ultimas-postagens h1 {
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  width: 235px;
+  margin-top: 15px;
+}
+.cards img {
+  max-width: 235px;
+}
+.card1,
+.card2,
+.card3 {
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+.card-conteudo {
+  padding-left: 20px;
+}
+.card-conteudo h1 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin-top: 17px;
+}
+.btn-conteudo {
+  background: #dcdae5;
+  padding: 9px 14px;
+  border-radius: 37px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 13px;
+  color: #5138ee;
+}
+.paragrafo {
+  padding-top: 6px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #696c85;
+}
+.autor {
+  font-weight: 700;
+  font-size: 13px;
+  color: #696c85;
+}

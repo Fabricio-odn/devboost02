@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.header img {
+  max-width: 163px;
+}
+.header-menu {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.bg-btn a {
+  padding: 10px 35px;
+  background: #f1554c;
+  color: #fff;
+  border-radius: 7px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header-menu {
+    padding-top: 20px;
+  }
+  .bg-btn a {
+    padding: 10px 15px;
+  }
+}

@@ -1,0 +1,108 @@
+.main {
+  margin-top: 118px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+
+.texto-pq {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #414246;
+}
+.texto-titulo {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  color: #393d51;
+  max-width: 376px;
+}
+.texto-titulo .devboost {
+  color: #f1554c;
+}
+
+.paragrafo {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #414246;
+  max-width: 384px;
+  margin-top: 12px;
+}
+
+.flex .btn {
+  margin-top: 17px;
+  gap: 27px;
+}
+.flex .btn a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+  padding: 10px 35px;
+  background: #f1554c;
+  border-radius: 7px;
+}
+.flex img {
+  width: 34px;
+  height: 34px;
+}
+.play {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.h1-play {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.imagens-2 .carinha {
+  max-height: 428px;
+  border-radius: 15px;
+}
+.imagens-2 {
+  position: relative;
+}
+.retangulo {
+  position: absolute;
+  z-index: -1;
+  right: 27px;
+  top: 22px;
+  border-radius: 22px;
+  background: #f1554c;
+  width: 348px;
+  height: 428px;
+}
+.ondas {
+  position: absolute;
+  bottom: -70px;
+  left: -140px;
+  z-index: -2;
+}
+
+@media (max-width: 425px) {
+  .main {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .flex .btn {
+    margin-bottom: 20px;
+  }
+
+  .imagens-2 .carinha {
+    max-height: 380px;
+  }
+  .retangulo {
+    width: 308px;
+    height: 380px;
+  }
+  .ondas {
+    width: 280px;
+  }
+}

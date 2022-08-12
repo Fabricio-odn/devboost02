@@ -1,0 +1,19 @@
+/* Resets */
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  box-sizing: border-box;
+  max-width: 1221px;
+  margin: 0 auto;
+  padding: 0 10px;
+}

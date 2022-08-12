@@ -1,0 +1,66 @@
+.article {
+  background: url(/assets/img/background\ .png) no-repeat;
+  background-size: cover;
+  margin-top: 46px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.banner-foguete {
+  background: url(/assets/img/Foguete.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 128px;
+  height: 364px;
+  right: 327px;
+  bottom: 0;
+  position: absolute;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner-text {
+  padding: 57px;
+  color: #fff;
+}
+.banner-text p,
+.banner-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.banner-text p {
+  font-size: 15px;
+  line-height: 24px;
+  max-width: 384px;
+  margin-top: 9px;
+}
+.banner-text p span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.banner-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+  max-width: 252px;
+}
+.banner-titulo span {
+  color: #5138ee;
+}
+
+.banner-btn {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background: #5138ee;
+  border: none;
+  border-radius: 34px;
+  padding: 7px 35px;
+  margin-top: 10px;
+  cursor: pointer;
+}
